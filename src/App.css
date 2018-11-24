@@ -28,7 +28,19 @@ height:200px;
 width:200px;
 margin: 10px;
 }
+/* Global Header */
+.global-header {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  text-align: center;
+}
 
+/* Global Footer*/
+.global-footer {
+  color: var(--color);
+  font-family: var(--font-serif);
+  text-align: center;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

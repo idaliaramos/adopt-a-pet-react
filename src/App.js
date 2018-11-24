@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import data from './assets/data/dogs.json'
 import Header from './snippets/Header.jsx'
+import Footer from './snippets/Footer.jsx'
 class App extends Component {
   render() {
     const img = require('./assets/images/banner.jpg');
@@ -18,6 +19,7 @@ class App extends Component {
           <div id='gallery'>
             {images}
            </div>
+           <Footer/>
         </div>
       </div>
     );
