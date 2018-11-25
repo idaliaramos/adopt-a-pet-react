@@ -19,6 +19,7 @@ export default class ImageComponent extends React.Component {
           onClick={this.handleShowDialog}
           alt="dog"
         />
+        {/* if state is isOpen is true it will show popup */}
         {this.state.isOpen && (
           <dialog
             className="backdrop"
