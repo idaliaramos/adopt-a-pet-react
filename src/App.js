@@ -3,17 +3,19 @@ import './App.css';
 import data from './assets/data/dogs.json'
 import Header from './snippets/Header.jsx'
 import Footer from './snippets/Footer.jsx'
+import ImageComponent from './component/ImageComponent'
 class App extends Component {
   render() {
-    const img = require('./assets/images/banner.jpg');
     let images = data.dogs.map(dog =>  {
-      console.log(dog.image, 'dog')
-    return <img  src={dog.image} alt=""  />
+      console.log(dog, 'dog')
+    return <li><ImageComponent key={dog.image} image={dog.image} alt="dog" /></li>
  });
     return (
       <div className="App">
         <header className="App-header">
+          <div className="header-text">
             <Header/>
+          </div>
         </header>
         <div className='container'>
           <div id='gallery'>
