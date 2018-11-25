@@ -8,7 +8,7 @@ class App extends Component {
     const img = require('./assets/images/banner.jpg');
     let images = data.dogs.map(dog =>  {
       console.log(dog.image, 'dog')
-    return <img  src={dog.image} alt=""  />
+    return <li><img  src={dog.image} alt=""  /></li>
  });
     return (
       <div className="App">
