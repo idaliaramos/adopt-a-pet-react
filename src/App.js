@@ -13,7 +13,9 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
+          <div className="header-text">
             <Header/>
+          </div>
         </header>
         <div className='container'>
           <div id='gallery'>
