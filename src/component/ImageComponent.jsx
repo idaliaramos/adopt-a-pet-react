@@ -2,12 +2,13 @@ import React from "react";
 
 export default class ImageComponent extends React.Component {
   state = { isOpen: false };
-
+//will change state from true to false and vice versa on click
   handleShowDialog = () => {
     this.setState({ isOpen: !this.state.isOpen });
   };
   render() {
-    let styles = {
+  //sets larger image for popup
+  let styles = {
   width: '80%',
   height: '90%',
 };
