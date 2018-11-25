@@ -3,12 +3,12 @@ import './App.css';
 import data from './assets/data/dogs.json'
 import Header from './snippets/Header.jsx'
 import Footer from './snippets/Footer.jsx'
+import ImageComponent from './component/ImageComponent'
 class App extends Component {
   render() {
-    const img = require('./assets/images/banner.jpg');
     let images = data.dogs.map(dog =>  {
-      console.log(dog.image, 'dog')
-    return <li><img  src={dog.image} alt=""  /></li>
+      console.log(dog, 'dog')
+    return <li><ImageComponent key={dog.image} image={dog.image} alt="dog" /></li>
  });
     return (
       <div className="App">
