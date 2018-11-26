@@ -6,9 +6,9 @@ import Footer from './snippets/Footer.jsx'
 import ImageComponent from './component/ImageComponent'
 class App extends Component {
   render() {
+    //map through the file to create an image component for each dog
     let images = data.dogs.map(dog =>  {
-      console.log(dog, 'dog')
-    return <li><ImageComponent key={dog.image} image={dog.image} alt="dog" /></li>
+    return <li><ImageComponent key={dog.id} image={dog.image} alt="dog" /></li>
  });
     return (
       <div className="App">
