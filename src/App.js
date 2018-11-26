@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     let images = data.dogs.map(dog =>  {
       console.log(dog, 'dog')
-    return <li><ImageComponent key={dog.image} image={dog.image} alt="dog" /></li>
+    return <li><ImageComponent key={dog.source} image={dog.image} alt="dog" /></li>
  });
     return (
       <div className="App">
@@ -18,8 +18,10 @@ class App extends Component {
           </div>
         </header>
         <div className='container'>
-          <div id='gallery'>
+          <div >
+            <ul id='gallery'>
             {images}
+            </ul>
            </div>
            <Footer/>
         </div>
