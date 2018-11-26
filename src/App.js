@@ -18,8 +18,10 @@ class App extends Component {
           </div>
         </header>
         <div className='container'>
-          <div id='gallery'>
+          <div >
+            <ul id='gallery'>
             {images}
+            </ul>
            </div>
            <Footer/>
         </div>
