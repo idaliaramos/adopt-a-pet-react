@@ -1,105 +1,89 @@
 {
   "dogs": [
-  {
-      "name": "joey",
-      "breed":"dachsun",
+  {   "id": 1,
       "image": "../assets/images/raw/1-min.jpeg",
       "source": "https://unsplash.com/photos/ybHtKz5He9Y"
     },
 
     {
-      "name": "joey",
-      "breed":"dachsun",
+      "id": 2,
       "image": "../assets/images/raw/2-min.jpeg",
       "source": "https://unsplash.com/photos/rY79kwEEyGo"
     },
 
     {
-      "name": "joey",
-      "breed":"dachsun",
+      "id": 3,
       "image": "../assets/images/raw/3-min.jpeg",
       "source": "https://unsplash.com/photos/ngqyo2AYYnE"
     },
 
     {
-      "name": "joey",
-      "breed":"dachsun",
+      "id": 4,
       "image": "../assets/images/raw/4-min.jpeg",
       "source": "https://unsplash.com/photos/9A64wd1QaAU"
     },
 
     {
-      "name": "joey",
-      "breed":"dachsun",
+      "id": 5,
       "image": "../assets/images/raw/5-min.jpeg",
       "source": "https://unsplash.com/photos/915UJQaxtrk"
     },
 
     {
-      "name": "joey",
-      "breed":"dachsun",
+      "id": 6,
       "image": "../assets/images/raw/6-min.jpeg",
       "source": "https://unsplash.com/photos/mx0DEnfYxic"
     },
 
     {
-      "name": "joey",
-      "breed":"dachsun",
+      "id": 7,
       "image": "../assets/images/raw/7-min.jpeg",
       "source": "https://unsplash.com/photos/OsOQhAzcEKc"
     },
 
     {
-      "name": "joey",
-      "breed":"bulldog",
+      "id": 8,
       "image": "../assets/images/raw/8-min.jpeg",
       "source": "https://unsplash.com/photos/6WneSv56YVI"
     },
 
     {
-      "name": "joey",
-      "breed":"bulldog",
+      "id": 9,
       "image": "../assets/images/raw/9-min.jpeg",
       "source": "https://unsplash.com/photos/CdVG9f96kyg"
     },
 
     {
-      "name": "joey",
-      "breed":"bulldog",
+      "id": 10,
       "image": "../assets/images/raw/10-min.jpeg",
       "source": "https://unsplash.com/photos/bVA2DI7c9e8"
     },
     {
-      "name": "joey",
-      "breed":"corgi",
+      "id": 11,
       "image": "../assets/images/raw/11-min.jpeg",
       "source": "https://unsplash.com/photos/GvhSUEN-Lm8"
     },
 
     {
-      "name": "joey",
-      "breed":"corgi",
+      "id": 12,
       "image": "../assets/images/raw/12-min.jpeg",
       "source": "https://unsplash.com/photos/t2XHKIdc4Kw"
     },
 
     {
-      "name": "joey",
-      "breed":"corgi",
+      "id": 13,
       "image": "../assets/images/raw/13-min.jpeg",
       "source": "https://unsplash.com/photos/saRU3vzmgkY"
     },
 
     {
-      "name": "joey",
-      "breed":"corgi",
+      "id": 14,
       "image": "../assets/images/raw/14-min.jpeg",
       "source": "https://unsplash.com/photos/1z-kI6gIEpg"
     },
 
     {
-      "name": "joey",
-      "breed":"corgi",
+      "id": 15,
       "image": "../assets/images/raw/15-min.jpeg",
       "source": "https://unsplash.com/photos/zHZ2nTnBnAQ"
     }
