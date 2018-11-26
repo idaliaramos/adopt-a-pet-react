@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     //map through the file to create an image component for each dog
     let images = data.dogs.map(dog =>  {
-    return <li><ImageComponent key={dog.id} image={dog.image} alt="dog" /></li>
+    return <li  key={dog.id}><ImageComponent key={dog.id} image={dog.image} alt="dog" /></li>
  });
     return (
       <div className="App">
