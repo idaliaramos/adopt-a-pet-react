@@ -1,9 +1,40 @@
+
+This project was created with [Create React App](https://github.com/facebookincubator/create-react-app).
+
+# Adopt a Pet
+* You may checkout the deployed site here :[Adopt a pet](http://adoptapet.surge.sh/)
+
+  ## About
+ Adopt a pet contains an image gallery that is responsive and performant.
+
+ The project is made with these aspects in mind:
+ * Fidelity- the app works well, it is responsive and contains the specifications to onclick enlarge image, on close return to    gallery
+ * Robustness - The page works across desktop and mobile
+ * Maintainability - It is organized and commented
+ * Performance rated 97/100, SEO 80/100 here are the google audits on the page
+ ![demo](https://user-images.githubusercontent.com/24365319/49041276-9a7cb100-f179-11e8-8311-0b6f627bbb77.png)
+
+ ## How was this project created?
+ * I have chosen to use React because it will improve our performance over plain javascript, especially when more content and interactions are added. If you want to see my fundamentals , (vanilla js and html), I also coded up this project in this manner, you can check the repo PetAdoption : [petAdoption](https://github.com/idaliaramos/petAdoption)
+ * I used custom CSS to add interactions and improve the UX/UI experience for the user
+ * I minified images using Optimizilla to improve loading time for images
+ * Ran google chrome audits and optimized where I could, improving loading for images and accessibility
+
+ ## Additional Evaluation
+ * You may choose to evaluate me on - Design Focus: How slick and polished are the page's UI and UX?
+
+
+# Thank you for checking out my project!!
+
+
+
+ ## How to run project after cloning
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
 In the project directory, you can run:
-
+### `npm i`
 ### `npm start`
 
 Runs the app in the development mode.<br>
