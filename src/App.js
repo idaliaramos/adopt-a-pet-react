@@ -3,7 +3,6 @@ import './App.css';
 import data from './assets/data/dogs.json'
 import Header from './snippets/Header.jsx'
 import Footer from './snippets/Footer.jsx'
-import ImageComponent from './component/ImageComponent'
 class App extends Component {
   state={
     isOpen: false,
@@ -12,20 +11,21 @@ class App extends Component {
 
   //will change state from true to false and vice versa on click
   //update the clicked image to render popup
-    handleShowDialog = (e) => {
-      this.setState({ isOpen: !this.state.isOpen });
-      this.setState({clickedImage:e.target.src })
+  handleShowDialog = (e) => {
+    this.setState({ isOpen: !this.state.isOpen });
+    this.setState({clickedImage:e.target.src })
     };
   render() {
     //map through the file to create an image component for each dog
     let images = data.dogs.map(dog =>  {
-    return <li onClick={this.handleShowDialog}  key={dog.id}><ImageComponent  key={dog.id} image={dog.image} alt="dog" /></li>
+    return <li onClick={this.handleShowDialog} key={dog.id}><img src={dog.image} alt="dog" /></li>
  });
  //styles for the image popup
- let styles = {
- width: '80%',
- height: 'auto'
-};
+   let styles = {
+      width: '80%',
+      height: 'auto'
+    };
+
     return (
       <div className="App">
         <header className="App-header">
@@ -37,11 +37,10 @@ class App extends Component {
           <div >
             <ul id='gallery'>
             {images}
-
             </ul>
             <div>
-              {/* if state is isOpen is true it will show popup */}
-              {this.state.isOpen && (
+              {/* if isOpen is true it will show popup */}
+               {this.state.isOpen && (
                 <div
                   className="backdrop"
                   onClick={this.handleShowDialog}
