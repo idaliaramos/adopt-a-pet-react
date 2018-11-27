@@ -23,3 +23,14 @@
 
 
 # Thank you for checking out my project!!
+
+If youd like to preview this project you can 
+* visit the live site
+[http://adoptapet.surge.sh](http://adoptapet.surge.sh/)
+or
+* clone the repo and run the commands
+``` 
+git clone https://github.com/idaliaramos/adopt-a-pet-react.git
+npm i
+npm start
+``` 
